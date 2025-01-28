@@ -101,4 +101,22 @@ This will create a page that uses the layout found in _layouts/page.html and set
 ===============================================================================
 ### [Kanban](https://github.com/orgs/zCoreGroup/projects/1/views/2)
 
-### © 2023 [zCore Group](https://zcoregroup.com)
+### Google Analytics
+- [ ] Add Google Analytics to the website's HTML pages
+  - HTML pages are located in the _includes/ directory
+- [ ] Add Google Tag Manager to the website
+- [ ] Add Google Optimize to the website
+
+Uncomment out and add this tag to the HTML pages on the website that you want to track:
+
+<!-- Google tag (gtag.js) -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-JNX8SMN6KY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JNX8SMN6KY');
+</script> -->
+
+### © 2025 [zCore Group](https://zcoregroup.com)
